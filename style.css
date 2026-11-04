@@ -30,7 +30,7 @@ button{color:var(--ink)}
 .hero{display:grid;grid-template-columns:minmax(0,1fr) 255px;gap:84px;padding-top:83px;padding-bottom:81px}
 .hero h1{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:14px;row-gap:5px;font-size:76px;letter-spacing:-3.3px;line-height:1.15;margin-top:23px;margin-bottom:15px}
 .name-english{white-space:nowrap}
-.name-chinese{font-family:'Noto Serif CJK SC','Songti SC','STSong','SimSun',serif;font-size:.4em;font-weight:400;line-height:1.5;letter-spacing:.03em;white-space:nowrap}
+.name-chinese{display:inline-block;font-family:'Noto Serif CJK SC','Songti SC','STSong','SimSun',serif;font-size:clamp(16px,2vw,22px);font-weight:400;line-height:1.4;letter-spacing:.02em;white-space:nowrap;color:var(--muted)}
 .name-period{color:#708998}
 .hero-role{font-family:var(--serif);font-size:23px;letter-spacing:-.2px}
 .hero-affiliation{font-size:14px;color:var(--muted);margin-top:1px}
